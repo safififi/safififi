@@ -1,0 +1,28 @@
+/* código omitido */
+
+body {
+    background-color: rgb(73, 13, 13);
+    color: white;
+    font-family:"Nerko One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #200f0e;
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display:block;
+}
+img {
+    max-width: 50%;
+}

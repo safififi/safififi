@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+        
+   
+    </head>
+    
+    
+    <title>A casa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Em uma noite você acorda num quarto descohecido e muito sombrio, ao checar a porta percebe que esta trancada, então você decide</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o quarto</button>
+            <button class="btn-proximo" data-proximo="2">Ficar e esperar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cenario-paso1.png" alt="">
+            <p>Ao vasculhar o quarto encontra duas caixas, uma preta uma branca
+                </p>
+            <button class="btn-proximo" data-proximo="3">Escolher a caixa preta</button>
+            <button class="btn-proximo" data-proximo="4">Escolher a caixa branca</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ao deicidir esperar e ficar você acaba MORRENDO de fome!</p>
+            <p>GAME OVER!!!</p>
+            
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo2.png" alt="">
+            <p>Ao escolher essa caixa você acaba encontrando uma chave,a chave da PORTA!.</p>
+            <button class="btn-proximo" data-proximo="7">Abrir a porta</button>
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.png" alt="">
+            <p>Dentro da caixa branca possui uma fruta dourada, com fome você decide comer, mas você acaba morrendo envenenado.
+            </p>
+
+        </div>
+    
+        
+    
+        <div class="passo" id="passo-7">
+            <p>Agora do lado de fora do quarto, você precisa arrumar uma maneira de fugir dessa casa assutadora, onde vamos vasculhar para encontrar uma solução? .</p>
+            <button class="btn-proximo" data-proximo="9">Cozinha</button>
+            <button class="btn-proximo" data-proximo="10">Sala</button>
+        </div>
+    
+        <div class="passo" id="passo-8">
+            <p>FINALMENTE! Você encontrou a chave  </p>
+            <button class="btn-proximo" data-proximo="7">Ir embora desta casa</button>
+        </div>
+    
+        <div class="passo" id="passo-9">
+            <p>FINALMENTE! Você encontrou a chave .</p>
+            <button class="btn-proximo" data-proximo="11">Ir embora desta casa</button>
+        </div>
+    
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo3.png" alt="">
+
+            <p>Ao vasculhar a sala você se depara com um bicho estranho sentado no sofa, tambem tem uma porta de saida do lado do bicho, uma oportunidade perfeita para fugir, você decide...
+
+            </p>
+            <button class="btn-proximo" data-proximo="12">Pedir educadamente pro bicho sair do lado da porta</button>
+       
+        </div>
+    
+        <div class="passo" id="passo-11">
+            <p>Agora fora dessa casa você se pergunta o que pode ter acontecido para ficar preso naquele lugar</p>
+        </div>
+    
+        <div class="passo" id="passo-12">
+            <p>O bicho se surpreendeu com tamanha gentileza sua e deixou você ir embora.</p>
+            <p>FINAL FELIZ!.</p>
+            <div class="passo" id="passo-13">
+                <p>Péssima escolha, o monstro foi atrás de você e te matou
+                    .</p>
+                <p>FINAL RUIM!.</p>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+        
+        
+        
+        
+</body>
+</html>
